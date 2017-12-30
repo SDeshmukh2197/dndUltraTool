@@ -1,0 +1,44 @@
+Aberrant Hide
+s
+Adamantine
+s
+Demonsteel
+s
+Disease
+s
+Dragonskin
+s
+Fear
+s
+Floating
+s
+Illusion
+s
+Locking
+s
+Orichalcum
+s
+Revealing
+s
+Steel
+s
+Summoning
+s
+Temper
+s
+Tetsudite
+s
+the Beacon
+s
+the Mountain
+s
+the Sky
+s
+the War Leader
+s
+Unbreaking
+s
+Wickedness
+s
+Wounding
+s

@@ -1,0 +1,43 @@
+Longbow
+Shortbow
+Longsword
+Shortsword
+Dagger
+Scimitar
+Quarterstaff
+Baton
+Tower Shield
+Buckler
+Basher Shield
+Helmet
+Javelin
+Battleaxe
+Greatsword
+Greataxe
+Hand Axe
+Spear
+Glaive
+Halberd
+Dart
+Scale Mail
+Halberk
+Plate Mail
+Greaves
+Boots
+Gloves
+Potion
+Bag
+Hammer
+Maul
+Chain
+Net
+Trident
+Locket
+Ring
+Key
+Cape
+Cloak
+Hooked Axe
+Whip
+Barbed Whip
+Parrying Dagger

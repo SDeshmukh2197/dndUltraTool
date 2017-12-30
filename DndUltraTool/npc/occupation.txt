@@ -1,0 +1,17 @@
+Member of the Thieves’ Guild
+Member of a Bards’ College
+Blacksmith
+Shopkeeper
+Librarian
+Craftsman
+Inventor
+Member of a wizarding school
+Member of a monastic order
+Member of a cult
+Alchemist
+Adventurer
+Dancer
+Singer
+Traveling merchant
+Con artist
+Beggar/street urchin

@@ -1,0 +1,8 @@
+200001 (Dragonborn)
+002000 (Dwarf)
+020000 (Elf)
+000200 (Gnome)
+020000 (Halfling)
+111111 (Human)
+201-200 (Orc)
+000102 (Tiefling)

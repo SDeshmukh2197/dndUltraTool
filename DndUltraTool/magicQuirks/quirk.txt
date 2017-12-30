@@ -1,0 +1,68 @@
+Amphibious
+floats on water and similar liquids, and can support up to its own weight before sinking.
+Angry
+s
+Blissful
+s
+Confident
+s
+Covetous
+s
+Cowardly
+s
+Enchanting
+s
+Energetic
+s
+Evil
+corrupts those who attune to it. If not evil already, the character must make a DC 15 Wisdom save at the start of each day. Failed saves cause the character to become more and more evil.
+Filthy
+is disgusting to both look at and use, and cannot be cleaned by nonmagical means.
+Frail
+s
+Gleaming
+is enchanted to never rust or lose its lustre and gains a +1 for attack rolls and damage.
+Haughty
+s
+Heavy
+weighs twice as much as its normal counterpart.
+Hungry
+s
+Joyous
+s
+Lazy
+s
+Light
+s
+Loud
+s
+Masterwork
+s
+Metamorphic
+s
+Muttering
+seems to constantly be muttering in a soft undertone. Listening closely may reveal secrets about the arcane or long lost knowledge…
+Oversized
+is one size category larger than normal.
+Painful
+causes pain to those it affects, dealing an additional 1d6 points of magical damage.
+Possessive
+is at least partially sentient and will not let you use another piece of equipment of the same type while attuned without suffering disadvantage on any relevant attack rolls, ability checks or saving throws.
+Remorseful
+is at least partially sentient and laments about the ways it has been used in the past. Perhaps it can shed light on certain events in the past…
+Repulsive
+requires a DC 15 Wisdom check to attune to due to its absolutely revolting appearance. Once a day while attuned to this item, you can force all creatures within 15 feet of you that can see the item to make a DC 16 Wisdom saving throw. On a failed save, the target can’t willingly move closer to the repulsive item. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Savage
+s
+Serrated
+s
+Sharp
+s
+Silvered
+is coated in silver, appearing repulsive to lycanthropes and undead.
+Slothful
+s
+Small
+s
+Sorrowful
+s

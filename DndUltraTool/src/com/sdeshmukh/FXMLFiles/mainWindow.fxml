@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.collections.FXCollections?>
+
+<?import java.lang.String?>
+<TabPane fx:id="mainTabPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112"
+         fx:controller="com.sdeshmukh.Controller">
+    <Tab text="Quick Reference" closable="false">
+        <GridPane alignment="CENTER" hgap="10" vgap="10">
+            <Label text="Click me to make something happen!" fx:id="somethingHappensLabel" wrapText="true" onMouseClicked="#handleSomethingHappens"/>
+        </GridPane>
+    </Tab>
+    <Tab text="Character Generator" closable="false">
+        <GridPane fx:id="characterGridPane" alignment="CENTER" hgap="10" vgap="10">
+            <Button text="Create a new character" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#showCharacterCreatorDialog"/>
+            <HBox GridPane.rowIndex="1" GridPane.columnIndex="0" spacing="5">
+                <CheckBox fx:id="isMaleCheckBox" text="Male?"/>
+                <CheckBox fx:id="isAdventurerCheckBox" text="Adventurer?"/>
+                <ComboBox fx:id="randomCharacterRacePicker">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Random"/>
+                            <String fx:value="Dragonborn"/>
+                            <String fx:value="Dwarf"/>
+                            <String fx:value="Elf"/>
+                            <String fx:value="Halfling"/>
+                            <String fx:value="Human"/>
+                            <String fx:value="Gnome"/>
+                            <String fx:value="Orc"/>
+                            <String fx:value="Tiefling"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Button text="Generate!" onAction="#handleRandomCharacter" stylesheets="@../CSSFiles/buttonStyles.css"/>
+            </HBox>
+            <TextArea fx:id="characterTextArea" wrapText="true" editable="false"
+                      GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        </GridPane>
+    </Tab>
+    <Tab text="Loot Generator" closable="false">
+        <GridPane fx:id="lootGridPane" alignment="CENTER" hgap="10" vgap="10">
+            <HBox GridPane.rowIndex="0" GridPane.columnIndex="0" spacing="10">
+                <Label text="Enter Challenge Rating: " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="lootCRTextField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            </HBox>
+            <HBox GridPane.rowIndex="1" GridPane.columnIndex="0" spacing="10">
+                <Button text="Generate Treasure" onAction="#handleTreasure"/>
+                <CheckBox fx:id="isHoardCheckBox" text="Generate Hoard?"/>
+            </HBox>
+            <TextArea fx:id="lootTextArea" wrapText="true" editable="false"
+                      GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        </GridPane>
+    </Tab>
+    <Tab text="Magic Equipment Generator" closable="false">
+        <GridPane fx:id="magicEquipmentGridPane" alignment="CENTER" hgap="10" vgap="10">
+            <HBox GridPane.rowIndex="0" GridPane.columnIndex="0" spacing="10">
+                <Button text="Generate random equipment" onAction="#handleRandomMagicEquipment" stylesheets="@../CSSFiles/buttonStyles.css"/>
+                <ComboBox fx:id="equipmentPicker">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+            </HBox>
+            <TextArea fx:id="magicEquipmentTextArea" wrapText="true" editable="false"
+                      GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        </GridPane>
+    </Tab>
+</TabPane>

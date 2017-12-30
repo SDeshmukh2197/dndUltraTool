@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<DialogPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.sdeshmukh.CharacterCreatorDialogController"
+            fx:id="characterCreatorDialogPane">
+    <headerText>
+        Create your character manually below.
+    </headerText>
+    <content>
+        <GridPane hgap="10" vgap="10">
+            <HBox GridPane.rowIndex="0" GridPane.columnIndex="0" spacing="10">
+                <Label text="Gender: "/>
+                <ComboBox fx:id="genderComboBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Pick for me"/>
+                            <String fx:value="Male"/>
+                            <String fx:value="Female"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Label text="Choose a way to generate stats: "/>
+                <ComboBox fx:id="statOptionComboBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="No ability scores"/>
+                            <String fx:value="Random (4d6 choose 3)"/>
+                            <String fx:value="Manual Entry"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+            </HBox>
+            <HBox GridPane.rowIndex="1" GridPane.columnIndex="0" spacing="10">
+                <Label text="Race: "/>
+                <ComboBox fx:id="raceComboBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Pick for me"/>
+                            <String fx:value="Dragonborn"/>
+                            <String fx:value="Dwarf"/>
+                            <String fx:value="Elf"/>
+                            <String fx:value="Halfling"/>
+                            <String fx:value="Human"/>
+                            <String fx:value="Gnome"/>
+                            <String fx:value="Orc"/>
+                            <String fx:value="Tiefling"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+            </HBox>
+            <HBox GridPane.rowIndex="2" GridPane.columnIndex="0">
+                <Label text="Character Name: "/>
+                <TextField fx:id="nameTextField"/>
+                <Button text="Generate a name for me" onAction="#handleRandomName"/>
+            </HBox>
+            <VBox fx:id="statEntry" GridPane.rowIndex="2" GridPane.columnIndex="1" spacing="5">
+                <Label text="Strength: " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="strength" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+                <Label text="Dexterity :" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="dexterity" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+                <Label text="Constitution: " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <TextField fx:id="constitution" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+                <Label text="Intelligence: " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                <TextField fx:id="intelligence" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+                <Label text="Wisdom: " GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                <TextField fx:id="wisdom" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+                <Label text="Charisma: " GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+                <TextField fx:id="charisma" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+                <Button text="Save stats" fx:id="statSaveButton" onAction="#handleSaveStats"
+                        GridPane.rowIndex="7" GridPane.columnIndex="0"/>
+                <Label text="" fx:id="statSaveLabel" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+            </VBox>
+        </GridPane>
+    </content>
+</DialogPane>

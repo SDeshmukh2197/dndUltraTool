@@ -1,0 +1,33 @@
+Straight and clean-shaven
+Wavy
+Curly
+Braided
+Straight
+Wavy and clean-shaven
+Curly and clean-shaven
+Bald and clean-shaven
+Braided and clean-shaven
+Straight with stubble
+Straight with thin beard
+Straight with thick beard
+Straight with braided beard
+Wavy with stubble
+Wavy with thin beard
+Wavy with thick beard
+Wavy with braided beard
+Curly with stubble
+Curly with thin beard
+Curly with thick beard
+Curly with braided beard
+Bald with stubble
+Bald with thin beard
+Bald with thick beard
+Bald with braided beard
+Braided with stubble
+Braided with thin beard
+Braided with thick beard
+Braided with braided beard
+
+—
+female 0 to 4
+male 5 to 28

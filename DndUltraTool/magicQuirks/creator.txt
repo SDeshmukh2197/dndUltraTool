@@ -1,0 +1,20 @@
+Aberration
+Human
+Human
+Human
+Celestial
+Dragon
+Drow
+Dwarf
+Dwarf
+Elemental Air
+Elemental Earth
+Elemental Fire
+Elemental Water
+Elf
+Elf
+Fey
+Fiend
+Giant
+Gnome
+Undead

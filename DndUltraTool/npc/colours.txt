@@ -1,0 +1,17 @@
+Brown
+Black
+Dark
+Copper
+Blue
+Green
+Hazel
+Red
+Pale
+Tan
+Yellow
+White
+Grey
+Gold
+Silver
+Bronze
+Brass
